@@ -89,7 +89,7 @@
                 </div>
                 
                 <div class="polaroid rotate-[5deg] bg-white p-2 shadow-lg mt-4"
-                     onclick="verFoto('img/imagen2.jpeg', 'Aveces no te entiendo jaja perome encanta todo de ti')">
+                     onclick="verFoto('img/imagen2.jpeg', 'A veces no te entiendo jaja pero me encanta todo de ti')">
                     <img src="img/imagen2.jpeg" class="w-full aspect-[4/5] object-cover">
                 </div>
                 
@@ -121,8 +121,8 @@
         </div>
     </section>
 
-    <section id="step3" class="section bg-[#fdf8f9] items-center justify-center p-4">
-        <main class="w-full max-w-[400px] bg-white h-[844px] rounded-[3rem] shadow-2xl relative border-[8px] border-gray-900 flex flex-col overflow-hidden">
+    <section id="step3" class="section bg-[#fdf8f9] items-center justify-center p-0">
+        <main class="w-full max-w-[430px] min-h-screen bg-white shadow-2xl relative flex flex-col overflow-hidden">
             <header class="mt-16 text-center">
                 <p class="text-[#ec1337] uppercase tracking-[0.3em] text-[10px] font-bold mb-2">Para mi persona favorita</p>
                 <h1 class="font-script text-6xl text-[#ec1337]">Liss Lucero</h1>
@@ -152,7 +152,6 @@
     <script>
         const audio = document.getElementById('romanticSong');
 
-        // Función para abrir el modal con foto y texto
         function verFoto(url, mensaje) {
             document.getElementById('modal-img').src = url;
             document.getElementById('modal-text').innerText = mensaje;
